@@ -38,4 +38,11 @@ I build **free, local, private** desktop software — apps that run entirely on 
 
 <br/>
 
+## 🔗 Find me
+
+<a href="https://instagram.com/barongartner"><img src="social-instagram.svg" width="49%" alt="Instagram — @barongartner" /></a>
+<a href="https://youtube.com/@barongartner"><img src="social-youtube.svg" width="49%" alt="YouTube — @barongartner" /></a>
+
+<br/>
+
 <sub>Everything above is free and runs locally. If that's your thing too, star a repo and dig in. 🖤</sub>
