@@ -1,0 +1,24 @@
+<svg width="600" height="160" viewBox="0 0 600 160" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="YouTube — @barongartner">
+<defs>
+<linearGradient id="youtube-bg" x1="0" y1="0" x2="600" y2="160" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#13131a"/><stop offset="1" stop-color="#1c182c"/></linearGradient>
+<radialGradient id="youtube-glow" cx="80.0" cy="80.0" r="150" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#ff0000" stop-opacity="0.22"/><stop offset="1" stop-color="#ff0000" stop-opacity="0"/></radialGradient>
+<linearGradient id="youtube-icon" x1="32" y1="32" x2="128" y2="128" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff5a5a"/><stop offset="1" stop-color="#cc0000"/></linearGradient>
+<linearGradient id="youtube-sheen" x1="32" y1="32" x2="84" y2="98" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.20"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<linearGradient id="youtube-title" x1="0" y1="60" x2="0" y2="92" gradientUnits="userSpaceOnUse">
+<stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d7d7e2"/></linearGradient>
+<filter id="youtube-ds" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+<feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#000000" flood-opacity="0.33"/></filter>
+<style>text{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}</style>
+</defs>
+<rect width="600" height="160" fill="url(#youtube-bg)"/>
+<rect width="600" height="160" fill="url(#youtube-glow)"/>
+<rect x="32" y="32" width="96" height="96" rx="24" fill="url(#youtube-icon)" filter="url(#youtube-ds)"/>
+<rect x="32" y="32" width="96" height="96" rx="24" fill="url(#youtube-sheen)"/>
+<rect x="32.6" y="32.6" width="94.8" height="94.8" rx="23.4" fill="none" stroke="#ffffff" stroke-opacity="0.12" stroke-width="1.2"/>
+<path d="M72 61 L72 99 L103 80 Z" fill="#fff" stroke="#fff" stroke-width="6" stroke-linejoin="round"/>
+<text x="152" y="82" font-size="42" font-weight="800" letter-spacing="-1" fill="url(#youtube-title)">YouTube</text>
+<text x="154" y="116" font-size="23" font-weight="500" fill="#8b8b9a">@barongartner</text>
+</svg>
