@@ -20,90 +20,90 @@
      =========================================================== -->
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/masthead-dark.svg">
-    <img alt="Baron Gartner. GitHub @barongartner. I have no idea what's going on." src="graphics/masthead-light.svg">
+    <img alt="Baron Gartner. GitHub @barongartner. I have no idea what's going on." src="graphics/masthead-light.svg" width="100%">
   </picture>
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/building-dark.svg">
-    <img alt="Currently building: Laneway, AI trip routing for the journeys maps cannot solve. Verified multi-modal plans, including the shuttles and connectors no map has indexed. A SwiftUI iPhone app." src="graphics/building-light.svg">
+    <img alt="Currently building: Laneway, AI trip routing for the journeys maps cannot solve. Verified multi-modal plans, including the shuttles and connectors no map has indexed. A SwiftUI iPhone app." src="graphics/building-light.svg" width="100%">
   </picture>
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/section-software-dark.svg">
-    <img alt="Section 01 of 05 — Software." src="graphics/section-software-light.svg">
+    <img alt="Section 01 of 05 — Software." src="graphics/section-software-light.svg" width="100%">
   </picture>
 
 <a href="https://github.com/barongartner/Photon">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-photon-dark.svg">
-    <img alt="01. Photon — fast local photo sorting for Windows and macOS, version 1.2.0. Fly through tens of thousands of photos in minutes and file them. Signed build available." src="graphics/app-photon-light.svg">
+    <img alt="01. Photon — fast local photo sorting for Windows and macOS, version 1.2.0. Fly through tens of thousands of photos in minutes and file them. Signed build available." src="graphics/app-photon-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/TrackForge">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-trackforge-dark.svg">
-    <img alt="02. TrackForge — turns YouTube links into properly tagged MP3s, cover art through musical key, and repairs the metadata on a library you already own. Windows and macOS, version 1.1.0. Signed build available." src="graphics/app-trackforge-light.svg">
+    <img alt="02. TrackForge — turns YouTube links into properly tagged MP3s, cover art through musical key, and repairs the metadata on a library you already own. Windows and macOS, version 1.1.0. Signed build available." src="graphics/app-trackforge-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/Verbatim">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-verbatim-dark.svg">
-    <img alt="03. Verbatim — offline audio transcription for Windows that tells the speakers apart. Version 2.2.0. Signed build available." src="graphics/app-verbatim-light.svg">
+    <img alt="03. Verbatim — offline audio transcription for Windows that tells the speakers apart. Version 2.2.0. Signed build available." src="graphics/app-verbatim-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/FreeFlow">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-freeflow-dark.svg">
-    <img alt="04. FreeFlow — local voice dictation for Windows. Speak anywhere you can type. Version 2.0.0. Signed build available." src="graphics/app-freeflow-light.svg">
+    <img alt="04. FreeFlow — local voice dictation for Windows. Speak anywhere you can type. Version 2.0.0. Signed build available." src="graphics/app-freeflow-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/FreeVoice">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-freevoice-dark.svg">
-    <img alt="05. FreeVoice Studio — text to speech with voice cloning, running fully on device on Windows, version 1.0.0. Chatterbox and F5-TTS for quality, Kokoro for quick drafts. Signed build available." src="graphics/app-freevoice-light.svg">
+    <img alt="05. FreeVoice Studio — text to speech with voice cloning, running fully on device on Windows, version 1.0.0. Chatterbox and F5-TTS for quality, Kokoro for quick drafts. Signed build available." src="graphics/app-freevoice-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/Split">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-split-dark.svg">
-    <img alt="06. Split — per-app multi-headphone audio routing for macOS and Windows, version 1.1.2. Send any app to any output device, each route with its own volume and delay. Signed build available." src="graphics/app-split-light.svg">
+    <img alt="06. Split — per-app multi-headphone audio routing for macOS and Windows, version 1.1.2. Send any app to any output device, each route with its own volume and delay. Signed build available." src="graphics/app-split-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/ReType">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-retype-dark.svg">
-    <img alt="07. ReType — a typing simulator for Windows that types the way a person does, pauses and typos and corrections included. Version 6.0.0. Signed build available." src="graphics/app-retype-light.svg">
+    <img alt="07. ReType — a typing simulator for Windows that types the way a person does, pauses and typos and corrections included. Version 6.0.0. Signed build available." src="graphics/app-retype-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://barongartner.github.io">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/downloads-dark.svg">
-    <img alt="Downloads at barongartner.github.io." src="graphics/downloads-light.svg">
+    <img alt="Downloads at barongartner.github.io." src="graphics/downloads-light.svg" width="100%">
   </picture>
 </a>
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/section-ai-dark.svg">
-    <img alt="Section 02 of 05 — Lab." src="graphics/section-ai-light.svg">
+    <img alt="Section 02 of 05 — Lab." src="graphics/section-ai-light.svg" width="100%">
   </picture>
 
 <a href="https://github.com/barongartner/The-Pit">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-thepit-dark.svg">
-    <img alt="08. The Pit — a testbed where Claude agents paper-trade against each other. Public source, no release yet, currently tinkering." src="graphics/app-thepit-light.svg">
+    <img alt="08. The Pit — a testbed where Claude agents paper-trade against each other. Public source, no release yet, currently tinkering." src="graphics/app-thepit-light.svg" width="100%">
   </picture>
 </a>
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/section-stack-dark.svg">
-    <img alt="Section 03 of 05 — Stack." src="graphics/section-stack-light.svg">
+    <img alt="Section 03 of 05 — Stack." src="graphics/section-stack-light.svg" width="100%">
   </picture>
 
 | <picture><source media="(prefers-color-scheme: dark)" srcset="graphics/stack-languages-dark.svg"><img alt="Languages: C#, Python, Swift, TypeScript, JavaScript, HTML5, CSS, PowerShell." src="graphics/stack-languages-light.svg"></picture> |
@@ -126,35 +126,31 @@
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/section-elsewhere-dark.svg">
-    <img alt="Section 04 of 05 — Elsewhere." src="graphics/section-elsewhere-light.svg">
+    <img alt="Section 04 of 05 — Elsewhere." src="graphics/section-elsewhere-light.svg" width="100%">
   </picture>
 
 <a href="https://instagram.com/barongartner">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="graphics/avatar-instagram-dark-1x.png">
-    <img src="graphics/avatar-instagram-light-1x.png" width="104" align="top" alt=""></picture><picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/social-instagram-dark.svg">
-    <img src="graphics/social-instagram-light.svg" width="616" align="top" alt="Instagram, @barongartner, instagram.com/barongartner, 1,387 followers.">
+    <img alt="Instagram, @barongartner, instagram.com/barongartner, 1,387 followers." src="graphics/social-instagram-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://youtube.com/@barongartner">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="graphics/avatar-youtube-dark-1x.png">
-    <img src="graphics/avatar-youtube-light-1x.png" width="104" align="top" alt=""></picture><picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/social-youtube-dark.svg">
-    <img src="graphics/social-youtube-light.svg" width="616" align="top" alt="YouTube, @barongartner, youtube.com/@barongartner, 82 subscribers.">
+    <img alt="YouTube, @barongartner, youtube.com/@barongartner, 82 subscribers." src="graphics/social-youtube-light.svg" width="100%">
   </picture>
 </a>
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/section-contact-dark.svg">
-    <img alt="Section 05 of 05 — Contact." src="graphics/section-contact-light.svg">
+    <img alt="Section 05 of 05 — Contact." src="graphics/section-contact-light.svg" width="100%">
   </picture>
 
 <a href="mailto:barongartner@gmail.com">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/colophon-dark.svg">
-    <img alt="Contact. Email barongartner at gmail dot com." src="graphics/colophon-light.svg">
+    <img alt="Contact. Email barongartner at gmail dot com." src="graphics/colophon-light.svg" width="100%">
   </picture>
 </a>
