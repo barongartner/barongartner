@@ -109,9 +109,12 @@ refreshed until `gh workflow enable` on Oct 31. If the versions look stale, chec
 
 ## Adding another app
 
-Indices run 01-07 in Software and 08-10 in Lab (FreeCast, Blend, The Pit). A new
-shipped app takes 08 in Software and every Lab plate moves down one; a new
-unreleased one goes at the top of Lab as 08 and the plates below it move down.
+Indices run 01-08 in Software and 09-14 in Lab: FreeCast, Blend and The Pit
+(public source, no release), then Recast, Teleport and PhotoPlaces (private
+repos or no repo, so no link and `PRIVATE` in the version slot). A new shipped
+app takes the next Software index and every Lab plate moves down one; a new
+unreleased public one goes at the top of Lab and the plates below it move down; a
+new private one goes at the end of Lab. Never link a private repo.
 
 1. Copy any `graphics/app-*.svg` pair (for a Lab plate copy `app-freecast-*.svg`:
    platform tag at x=626, `UNRELEASED` in the version slot, `SOURCE` on the name row). Change the name, the description, the
@@ -120,7 +123,7 @@ unreleased one goes at the top of Lab as 08 and the plates below it move down.
    `height`/`viewBox` must both change).
 2. Add one `<a href="..."><picture>...</picture></a>` block to `README.md` in the
    Software section, with a full-sentence alt beginning with the index.
-3. Renumber any later plates' indices (currently the three Lab plates).
+3. Renumber any later plates' indices (currently the six Lab plates).
 4. If the app has releases, give the version `<text>` a `data-repo` matching the
    repo name so the refresh job picks it up.
 

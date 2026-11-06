@@ -17,6 +17,8 @@
      Remove data-repo to opt a plate out (The Pit has none).
      Lab plates (FreeCast, Blend) keep data-repo with the text
      UNRELEASED, so the first release tag replaces it on its own.
+     Private plates (Recast, Teleport, PhotoPlaces) close out Lab:
+     no link, no data-repo, PRIVATE in the version slot.
 
      Full system notes are in SPEC.md.
      =========================================================== -->
@@ -84,6 +86,13 @@
   </picture>
 </a>
 
+<a href="https://github.com/barongartner/Shelf">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="graphics/app-shelf-dark.svg">
+    <img alt="08. Shelf: a file shelf shared by every device on your Wi-Fi. Drop a file on one computer and drag it out on another, and save a batch of photos straight to your iPhone camera roll. macOS and Windows, iPhone in the browser, version 1.2.1. Signed build available." src="graphics/app-shelf-light.svg" width="100%">
+  </picture>
+</a>
+
 <a href="https://barongartner.github.io">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/downloads-dark.svg">
@@ -99,23 +108,38 @@
 <a href="https://github.com/barongartner/FreeCast">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-freecast-dark.svg">
-    <img alt="08. FreeCast: a screen recorder for devlogs on Windows. Your phone is the face cam over Wi-Fi, and a hotkey drops edit markers into the MP4 and a Resolve EDL. Public source, no release yet." src="graphics/app-freecast-light.svg" width="100%">
+    <img alt="09. FreeCast: a screen recorder for devlogs on Windows. Your phone is the face cam over Wi-Fi, and a hotkey drops edit markers into the MP4 and a Resolve EDL. Public source, no release yet." src="graphics/app-freecast-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/Blend">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-blend-dark.svg">
-    <img alt="09. Blend: a personal AutoMix for the Mac. Pick songs from Apple Music, set where each starts and ends, and render one beat-matched mix for the background of a video. Public source, no release yet." src="graphics/app-blend-light.svg" width="100%">
+    <img alt="10. Blend: a personal AutoMix for the Mac. Pick songs from Apple Music, set where each starts and ends, and render one beat-matched mix for the background of a video. Public source, no release yet." src="graphics/app-blend-light.svg" width="100%">
   </picture>
 </a>
 
 <a href="https://github.com/barongartner/The-Pit">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/app-thepit-dark.svg">
-    <img alt="10. The Pit: a testbed where Claude agents paper-trade against each other. Public source, no release yet, currently tinkering." src="graphics/app-thepit-light.svg" width="100%">
+    <img alt="11. The Pit: a testbed where Claude agents paper-trade against each other. Public source, no release yet, currently tinkering." src="graphics/app-thepit-light.svg" width="100%">
   </picture>
 </a>
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="graphics/app-recast-dark.svg">
+    <img alt="12. Recast: instant image conversion for Windows. Drop a file and get PNG, JPG, BMP, GIF, TIFF or a proper multi-size ICO, from one 124 KB exe that opens in about 30 ms. Private, not released." src="graphics/app-recast-light.svg" width="100%">
+  </picture>
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="graphics/app-teleport-dark.svg">
+    <img alt="13. Teleport: simulated GPS for my iPhone, run from a map on Windows. Pin a spot, or drive a real route that slows for turns and stops at stop signs and lights. Private, not released." src="graphics/app-teleport-light.svg" width="100%">
+  </picture>
+
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="graphics/app-photoplaces-dark.svg">
+    <img alt="14. PhotoPlaces: a SwiftUI iPhone app for my saved places, and for fixing where a photo says it was taken. Private, not released." src="graphics/app-photoplaces-light.svg" width="100%">
+  </picture>
 
 <picture>
     <source media="(prefers-color-scheme: dark)" srcset="graphics/section-stack-dark.svg">
