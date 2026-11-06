@@ -84,7 +84,7 @@ markdown, since GitHub renders each `<picture>` as its own block.
 | `section-*` | 720 x 58 | 3px cap rule, letterspaced label, hairline, "01 / 05" counter |
 | `app-*` | 720 x 120 to 142 | One app as a specimen: index, platforms, version, name at 38/300, sample setting. The version `<text>` carries `data-repo`, which is how the refresh job finds it |
 | `stack-*` (x4) | ~90 x 20 | Group label in mono, sized to the text, sitting in a table header cell |
-| Stack frame | none | Four separate single-column markdown tables, one per group. GitHub draws and themes the frame; the header cell holds the label plate, the body cell holds shields.io flat-square badges at `#41464d` with brand-coloured logo glyphs |
+| Stack frame | none | Four separate single-column markdown tables, one per group. GitHub draws and themes the frame; the header cell holds the label plate, the body cell holds shields.io flat-square badges at `#41464d` with brand-coloured logo glyphs, saved as SVGs in `graphics/badges/` |
 | `downloads` | 720 x 88 | Linked call to action: the site set at 34/300, ink arrow at the right |
 | `social-*` (x2) | 616 x 132 | Platform card: ink label, outline mark, handle at 32/300, URL in mono, count right-aligned on the URL line. Sits flush against a 104px avatar image whose own top and bottom rules continue the plate's, so the hairlines run unbroken across the full 720 |
 | `colophon` | 720 x 64 | Email row |
@@ -138,12 +138,19 @@ is moving one block.
 - **Badge logos.** shields.io takes its logos from simple-icons, which dropped the
   Microsoft marks (Windows, C#, PowerShell) and OpenAI in 2024, so those badges
   rendered as bare text. C#, PowerShell, WinForms, Windows and Whisper now carry
-  their own small SVG glyphs as base64 `logo=` data URIs in the badge URL. Every
+  their own small SVG glyphs as base64 `logo=` data URIs in the badge URL
+  (in `tools/refresh-badges.mjs`). Every
   other badge still uses a named slug.
-- **One third-party fetch**, the only thing on the page not committed to the
-  repo: img.shields.io, for the stack badges and the three live GitHub counters
-  (followers, stars, last ship). github-readme-stats.vercel.app was tried first
-  and is dead; the whole host is unreachable, including its own demo URLs.
+- **No third-party fetch on the page.** The stack badges and the three live
+  GitHub counters (followers, stars, last ship) used to hot-link img.shields.io.
+  GitHub's camo proxy kept timing out on shields (504), so a different set of
+  badges came up broken on every load and sometimes all of them did. Every
+  badge is now a committed SVG in `graphics/badges/`. `tools/refresh-badges.mjs`
+  holds the shields URL for each one and re-downloads them in the daily job, so
+  the counters stay current; a failed fetch keeps the old file. To add or change
+  a badge, edit the list in that script, run it, and point the README at the new
+  file. github-readme-stats.vercel.app was tried first and is dead; the whole
+  host is unreachable, including its own demo URLs.
 - **iOS** appears in Platforms only. Nothing is claimed as a shipped iOS project;
   send me those and I will set the plates.
 - **Design-system deviation.** The bound Baron Gartner system's gradient app tile
